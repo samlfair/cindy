@@ -1,20 +1,24 @@
+import adapter from '@sveltejs/adapter-auto'
+import adapterStatic from '@sveltejs/adapter-static'
 import { mdsvex } from 'mdsvex'
-// import static from '@sveltejs/adapter-static'
-import vercel from '@sveltejs/adapter-vercel'
 
+/** @type {import('@sveltejs/kit').Config} */
 const config = {
   kit: {
+    adapter: adapterStatic(),
+
     // hydrate the <div id="svelte"> element in src/app.html
     target: '#svelte',
-    adapter: vercel(),
   },
   extensions: ['.svelte', '.svx', '.md'],
-  preprocess: mdsvex({
-    extensions: ['.svx', '.md'],
-    layout: {
-      _: './src/lib/components/frontmatter.svelte',
-    },
-  }),
+  preprocess: [
+    mdsvex({
+      extensions: ['.svx', '.md'],
+      layout: {
+        frontmatter: './src/lib/components/frontmatter.svelte',
+      },
+    }),
+  ],
 }
 
 export default config

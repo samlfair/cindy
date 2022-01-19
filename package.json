@@ -1,17 +1,18 @@
 {
-  "name": "sams-markdown-svelte-blog",
+  "name": "cindy",
   "version": "0.0.1",
   "scripts": {
     "dev": "svelte-kit dev",
     "build": "svelte-kit build",
+    "package": "svelte-kit package",
     "preview": "svelte-kit preview"
   },
   "devDependencies": {
-    "@sveltejs/adapter-vercel": "^1.0.0-next.0",
-    "@sveltejs/kit": "^1.0.0-next.232",
+    "@sveltejs/adapter-auto": "next",
+    "@sveltejs/adapter-static": "next",
+    "@sveltejs/kit": "next",
     "mdsvex": "^0.9.8",
-    "svelte": "^3.46.2"
+    "svelte": "^3.44.0"
   },
-  "type": "module",
-  "svelte": "./index.md"
+  "type": "module"
 }
