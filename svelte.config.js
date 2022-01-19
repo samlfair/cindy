@@ -1,12 +1,12 @@
 // import adapter from '@sveltejs/adapter-auto'
-// import adapterStatic from '@sveltejs/adapter-static'
-import adapterVercel from '@sveltejs/adapter-vercel'
+import adapterStatic from '@sveltejs/adapter-static'
+// import adapterVercel from '@sveltejs/adapter-vercel'
 import { mdsvex } from 'mdsvex'
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
   kit: {
-    adapter: adapterVercel(),
+    adapter: adapterStatic(),
 
     // hydrate the <div id="svelte"> element in src/app.html
     target: '#svelte',
