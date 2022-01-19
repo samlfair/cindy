@@ -22,9 +22,9 @@ export function init(settings = default_settings) {
 		amp: false,
 		dev: false,
 		entry: {
-			file: assets + "/_app/start-d3c5c408.js",
+			file: assets + "/_app/start-3c9e9af2.js",
 			css: [assets + "/_app/assets/start-61d1577b.css"],
-			js: [assets + "/_app/start-d3c5c408.js",assets + "/_app/chunks/vendor-1bffe752.js"]
+			js: [assets + "/_app/start-3c9e9af2.js",assets + "/_app/chunks/vendor-1bffe752.js"]
 		},
 		fetched: undefined,
 		floc: false,
@@ -97,7 +97,7 @@ const module_lookup = {
 	"src/routes/__layout.svelte": () => import("../../src/routes/__layout.svelte"),".svelte-kit/build/components/error.svelte": () => import("./components/error.svelte"),"src/routes/index.md": () => import("../../src/routes/index.md")
 };
 
-const metadata_lookup = {"src/routes/__layout.svelte":{"entry":"pages/__layout.svelte-81dea584.js","css":["assets/pages/__layout.svelte-e89777b8.css"],"js":["pages/__layout.svelte-81dea584.js","chunks/vendor-1bffe752.js","chunks/stores-0c6e920e.js"],"styles":[]},".svelte-kit/build/components/error.svelte":{"entry":"error.svelte-fce15b03.js","css":[],"js":["error.svelte-fce15b03.js","chunks/vendor-1bffe752.js"],"styles":[]},"src/routes/index.md":{"entry":"pages/index.md-6b00290f.js","css":[],"js":["pages/index.md-6b00290f.js","chunks/vendor-1bffe752.js","chunks/stores-0c6e920e.js"],"styles":[]}};
+const metadata_lookup = {"src/routes/__layout.svelte":{"entry":"pages/__layout.svelte-c71de781.js","css":["assets/pages/__layout.svelte-e89777b8.css"],"js":["pages/__layout.svelte-c71de781.js","chunks/vendor-1bffe752.js","chunks/stores-0c6e920e.js"],"styles":[]},".svelte-kit/build/components/error.svelte":{"entry":"error.svelte-fce15b03.js","css":[],"js":["error.svelte-fce15b03.js","chunks/vendor-1bffe752.js"],"styles":[]},"src/routes/index.md":{"entry":"pages/index.md-6b00290f.js","css":[],"js":["pages/index.md-6b00290f.js","chunks/vendor-1bffe752.js","chunks/stores-0c6e920e.js"],"styles":[]}};
 
 async function load_component(file) {
 	const { entry, css, js, styles } = metadata_lookup[file];

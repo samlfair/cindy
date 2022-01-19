@@ -1428,9 +1428,9 @@ function init(settings = default_settings) {
     amp: false,
     dev: false,
     entry: {
-      file: assets + "/_app/start-d3c5c408.js",
+      file: assets + "/_app/start-3c9e9af2.js",
       css: [assets + "/_app/assets/start-61d1577b.css"],
-      js: [assets + "/_app/start-d3c5c408.js", assets + "/_app/chunks/vendor-1bffe752.js"]
+      js: [assets + "/_app/start-3c9e9af2.js", assets + "/_app/chunks/vendor-1bffe752.js"]
     },
     fetched: void 0,
     floc: false,
@@ -1489,7 +1489,7 @@ const module_lookup = {
     return index;
   })
 };
-const metadata_lookup = { "src/routes/__layout.svelte": { "entry": "pages/__layout.svelte-81dea584.js", "css": ["assets/pages/__layout.svelte-e89777b8.css"], "js": ["pages/__layout.svelte-81dea584.js", "chunks/vendor-1bffe752.js", "chunks/stores-0c6e920e.js"], "styles": [] }, ".svelte-kit/build/components/error.svelte": { "entry": "error.svelte-fce15b03.js", "css": [], "js": ["error.svelte-fce15b03.js", "chunks/vendor-1bffe752.js"], "styles": [] }, "src/routes/index.md": { "entry": "pages/index.md-6b00290f.js", "css": [], "js": ["pages/index.md-6b00290f.js", "chunks/vendor-1bffe752.js", "chunks/stores-0c6e920e.js"], "styles": [] } };
+const metadata_lookup = { "src/routes/__layout.svelte": { "entry": "pages/__layout.svelte-c71de781.js", "css": ["assets/pages/__layout.svelte-e89777b8.css"], "js": ["pages/__layout.svelte-c71de781.js", "chunks/vendor-1bffe752.js", "chunks/stores-0c6e920e.js"], "styles": [] }, ".svelte-kit/build/components/error.svelte": { "entry": "error.svelte-fce15b03.js", "css": [], "js": ["error.svelte-fce15b03.js", "chunks/vendor-1bffe752.js"], "styles": [] }, "src/routes/index.md": { "entry": "pages/index.md-6b00290f.js", "css": [], "js": ["pages/index.md-6b00290f.js", "chunks/vendor-1bffe752.js", "chunks/stores-0c6e920e.js"], "styles": [] } };
 async function load_component(file) {
   const { entry, css: css2, js, styles } = metadata_lookup[file];
   return {
@@ -1565,7 +1565,7 @@ const Frontmatter = create_ssr_component(($$result, $$props, $$bindings, slots) 
 const Seo = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   let { title } = $$props;
   let { description } = $$props;
-  let { favicon = "f" } = $$props;
+  let { favicon } = $$props;
   if ($$props.title === void 0 && $$bindings.title && title !== void 0)
     $$bindings.title(title);
   if ($$props.description === void 0 && $$bindings.description && description !== void 0)
@@ -1577,7 +1577,7 @@ const Seo = create_ssr_component(($$result, $$props, $$bindings, slots) => {
 var __layout_svelte_svelte_type_style_lang = "nav.svelte-88a8oq{display:flex;flex-direction:row;justify-content:space-between}";
 const css = {
   code: "nav.svelte-88a8oq{display:flex;flex-direction:row;justify-content:space-between}",
-  map: `{"version":3,"file":"__layout.svelte","sources":["__layout.svelte"],"sourcesContent":["<script>\\n  import { useFrontmatter } from '$lib/stores';\\n  import { Seo } from '$lib/components'\\n\\n  let frontmatter;\\n\\n  // Frontmatter store is set is frontmatter component, which is an mdsvex layout\\n  useFrontmatter.subscribe(value => {\\n    frontmatter = value;\\n  });\\n<\/script>\\n\\n<Seo title={frontmatter.title} description={frontmatter.description} />\\n<!-- <Seo title={frontmatter.title} description={frontmatter.description} favicon={frontmatter.favicon} /> -->\\n\\n<nav>\\n  <h1>{frontmatter.title}</h1>\\n  <h2>Writer</h2>\\n</nav>\\n<main>\\n  <slot></slot>\\n</main>\\n\\n<style global>\\n  body {\\n    padding: 10vw;\\n  }\\n  nav {\\n    display: flex;\\n    flex-direction: row;\\n    justify-content: space-between;\\n  }\\n\\n</style>"],"names":[],"mappings":"AA2BE,GAAG,cAAC,CAAC,AACH,OAAO,CAAE,IAAI,CACb,cAAc,CAAE,GAAG,CACnB,eAAe,CAAE,aAAa,AAChC,CAAC"}`
+  map: `{"version":3,"file":"__layout.svelte","sources":["__layout.svelte"],"sourcesContent":["<script>\\n  import { useFrontmatter } from '$lib/stores';\\n  import { Seo } from '$lib/components'\\n\\n  let frontmatter;\\n\\n  // Frontmatter store is set is frontmatter component, which is an mdsvex layout\\n  useFrontmatter.subscribe(value => {\\n    frontmatter = value;\\n  });\\n<\/script>\\n\\n<Seo title={frontmatter.title} description={frontmatter.description} favicon={frontmatter.favicon} />\\n\\n<nav>\\n  <h1>{frontmatter.title}</h1>\\n  <h2>Writer</h2>\\n</nav>\\n<main>\\n  <slot></slot>\\n</main>\\n\\n<style global>\\n  body {\\n    padding: 10vw;\\n  }\\n  nav {\\n    display: flex;\\n    flex-direction: row;\\n    justify-content: space-between;\\n  }\\n\\n</style>"],"names":[],"mappings":"AA0BE,GAAG,cAAC,CAAC,AACH,OAAO,CAAE,IAAI,CACb,cAAc,CAAE,GAAG,CACnB,eAAe,CAAE,aAAa,AAChC,CAAC"}`
 };
 const _layout = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   let frontmatter;
@@ -1587,9 +1587,9 @@ const _layout = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   $$result.css.add(css);
   return `${validate_component(Seo, "Seo").$$render($$result, {
     title: frontmatter.title,
-    description: frontmatter.description
+    description: frontmatter.description,
+    favicon: frontmatter.favicon
   }, {}, {})}
-
 
 <nav class="${"svelte-88a8oq"}"><h1>${escape(frontmatter.title)}</h1>
   <h2>Writer</h2></nav>
