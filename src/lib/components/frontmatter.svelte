@@ -1,11 +1,12 @@
  <script>
-  import { useFrontmatter } from '$lib/stores';
+  import { useFrontmatter } from '$lib/stores'
   
-  export let title;
-  export let description;
-  export let favicon;
+  export let title
+  export let subtitle
+  export let description
+  export let favicon
 
-  useFrontmatter.set({title, description, favicon});
+  useFrontmatter.set({title, description, subtitle, favicon})
 </script>
 
 

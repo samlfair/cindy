@@ -2,6 +2,7 @@
 import adapterStatic from '@sveltejs/adapter-static'
 // import adapterVercel from '@sveltejs/adapter-vercel'
 import { mdsvex } from 'mdsvex'
+import preprocess from 'svelte-preprocess'
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
@@ -15,10 +16,9 @@ const config = {
   preprocess: [
     mdsvex({
       extensions: ['.svx', '.md'],
-      layout: {
-        frontmatter: './src/lib/components/frontmatter.svelte',
-      },
+      layout: './src/lib/components/frontmatter.svelte',
     }),
+    preprocess(),
   ],
 }
 
