@@ -20,7 +20,7 @@ Cindy Littlefair is a Canadian writer. She is currently working on her first boo
 
 For more than thirty years, Cindy has written as a columnist and blogger, sharing insights on life, community, and family. In 2020, she entered the Master of Fine Arts in Creative Nonfiction at the University of King's College to develop her first book, _Short-Lived_. She was emboldened on her journey by mentors who told her that her project was, "powerful" and "well-crafted" and that it "exceeded already-high expectations."
 
-While working with guides and mentors, Cindy drew out the universality of the meaning and themes in her story — a story of impossible tragedy and improbable joy in a completely ordinary family.
+While working with guides and mentors, Cindy drew out the universality of the meaning and themes in her story — a story of impossible tragedy and improbable joy in an ordinary family.
 
 Cindy has also worked for many years in the management group of Lion's Roar, the world's leading English-language Buddhist magazine. She was a member of the Halifax Regional School Board from 2012 until its summary elimination in 2018.
 
