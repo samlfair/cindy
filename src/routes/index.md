@@ -1,20 +1,20 @@
 ---
-title: Cindy Littlefair
-subtitle: Writer
+title: Cindy Littlefair, Writer
+subtitle: null
 description: Cindy Littlefair is a Canadian writer.
 favicon: 📖
 ---
 
 <script>
   import portrait from '$lib/assets/portrait.jpg'
+  import ImageCaption from '$lib/components/imageCaption.svelte'
 </script>
 
-<img 
-  src={portrait} 
-  alt="Portrait of Cindy Littlefair" 
-/>
+<ImageCaption image={portrait} alt="Portrait of Cindy Littlefair">
 
-## The Author
+Cindy Littlefair is a Canadian writer. She is currently working on her first book, _Short-Lived_, the story of her family of origin.
+
+</ImageCaption>
 
 Cindy Littlefair has written as a freelance columnist and content producer. She's part of the management group for [Lion's Roar](http://lionsroar.com/), the largest English-language Buddhist magazine in North America, and, in terms of public service, was an elected member of the Halifax Regional School Board.
 
