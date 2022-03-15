@@ -18,6 +18,9 @@
   {#if frontmatter.subtitle}<h2>{frontmatter.subtitle}</h2>{/if}
 </nav>
   <slot></slot>
+  <hr/>
+  <div class="copywrite">&#169; Cindy Littlefair, {(new Date).getFullYear()}</div>
+  <hr/>
 </main>
 
 <style global>
@@ -31,4 +34,25 @@
     justify-content: space-between;
   }
 
+  .copywrite {
+    text-align: center;
+  }
+
+  hr {
+    border: none;
+    padding: 1rem;
+  }
+
+  hr + p:first-letter {
+    float: left;
+    font-size: 4.5em;
+    line-height: 60px;
+    padding-top: 4px;
+    padding-right: 8px;
+    padding-left: 3px;
+  }
+
+  blockquote em, em em {
+    font-style: normal;
+  }
 </style>

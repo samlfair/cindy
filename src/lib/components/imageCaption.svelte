@@ -23,7 +23,7 @@
 
   img {
     max-width: calc(30% + 45px);
-    border-radius: calc(40vw - 150px);
+    border-radius: max(calc(40vw - 200px), 45px);
     float: right;
     align-self: flex-start;
     /* margin-right: 5vw; */

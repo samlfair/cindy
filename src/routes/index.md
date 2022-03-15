@@ -16,15 +16,17 @@ Cindy Littlefair is a Canadian writer. She is currently working on her first boo
 
 </ImageCaption>
 
-Cindy Littlefair has written as a freelance columnist and content producer. She's part of the management group for [Lion's Roar](http://lionsroar.com/), the largest English-language Buddhist magazine in North America, and, in terms of public service, was an elected member of the Halifax Regional School Board.
+---
 
-It was the Master of Fine Arts in Creative Nonfiction at University of King's College, Dalhousie, however, that gave her the time and space she needed in order to complete her journey to writer. And the support. Mentors said of her writing and of _Short-Lived_, in particular, that it was "powerful," "well-crafted," and that it "exceeded my already high...expectations."
+For more than thirty years, Cindy has written as a columnist and blogger, sharing insights on life, community, and family. In 2020, she entered the Master of Fine Arts in Creative Nonfiction at the University of King's College to develop her first book, _Short-Lived_. She was emboldened on her journey by mentors who told her that her project was, "powerful" and "well-crafted" and that it "exceeded already-high expectations."
 
-While at King's, Cindy mastered the craft not only of relaying the details of her family's situation but of telling the story, of drawing out its universality and meaning and themes. Short-Lived is her first book. She is now pitching and writing magazine pieces that employ aspects of Short-Lived as the springboard.
+While working with guides and mentors, Cindy drew out the universality of the meaning and themes in her story — a story of impossible tragedy and improbable joy in a completely ordinary family.
 
-## The Book
+Cindy has also worked for many years in the management group of Lion's Roar, the world's leading English-language Buddhist magazine. She was a member of the Halifax Regional School Board from 2012 until its summary elimination in 2018.
 
-_From Cindy Littlefair, a new voice in the tradition of meaning-finding through words, curiosity,  and her own life of death comes_ Short-Lived.
+## About _Short-Lived_
+
+> From Cindy Littlefair, a new voice in the tradition of meaning-finding through words, curiosity, and her own life of death, comes _Short-Lived_.
 
 In the Littlefair family, all it took to qualify as a rebel child was curiosity. And staying alive. The rest was gravy. By the time Cindy was 12, four of her five siblings were dead. It wasn’t all bad but even when it was good it was troubling.
 
