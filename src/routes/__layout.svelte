@@ -14,7 +14,7 @@
 
 <main data-theme="light">
 <nav>
-  <h1>{frontmatter.title}</h1>
+  <h1>{frontmatter.title || "Cindy Littlefair"}</h1>
   {#if frontmatter.subtitle}<h2>{frontmatter.subtitle}</h2>{/if}
 </nav>
   <slot></slot>
