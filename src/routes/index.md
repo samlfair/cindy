@@ -50,3 +50,7 @@ By the time she’s 12, Cindy knows she’s had five siblings. Only one remains.
 Her parents are no help. They’re at sea with their own emotions. They lavish her with love and show her a life of joy, the family as rich in warmth and humour as it is tragedy and denial, but the ignoring is knee-deep. The bodies have piled up around them. If Cindy’s going to get anywhere with her own life-palsying confusion, she needs to dig in, even if she does so alone.
 
 Cindy feels her way forward, up and out, uncertainty notwithstanding. She’s a true “Wednesday’s child,” a mess of inherited woe, a “sobersides,” her mother’s word, but she knows there’s no way around it. She has to go through it. She has to indulge her curiosity and find the silk purse that is the Littlefair sow’s ear.
+
+## Contact
+
+Find Cindy on Twitter, [@cindylittlefair](https://twitter.com/cindylittlefair), or via email, cindymlittlefair at gmail.
