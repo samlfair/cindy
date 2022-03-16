@@ -1,11 +1,14 @@
 <script>
   export let image;
   export let alt;
+  export let reverse;
+  export let small;
+  export let square;
 </script>
 
-<div class="element">
+<div class="element" class:reverse class:small class:square>
   <img 
-    src={image} 
+    src={image}
     {alt}
   />
   <div class="caption">
@@ -21,12 +24,28 @@
     font-size: 1.4rem;
   }
 
+  .element.reverse {
+    flex-direction: row;
+  }
+  
+  .element.small {
+    font-size: 1.2rem;
+  }
+
+  .element.square {
+    gap: 5%;
+  }
+
   img {
     max-width: calc(30% + 45px);
-    border-radius: max(calc(40vw - 200px), 45px);
+    border-radius: 50%;
     float: right;
     align-self: flex-start;
     /* margin-right: 5vw; */
+  }
+
+  .square img {
+    border-radius: 4px;
   }
 
   .caption {
@@ -34,6 +53,17 @@
     border-top: 1px solid var(--text-light);
     padding: 0.1rem .7rem 0.1rem 0;
     border-radius: 1px;
+  }
+
+  @media screen and (max-width: 400px) {
+    .element, .element.reverse {
+      flex-direction: column;
+      justify-content: center;
+    }
+    img {
+      align-self: unset;
+      margin: 3rem 0;
+    }
   }
 
 
