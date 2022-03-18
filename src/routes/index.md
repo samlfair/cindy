@@ -23,7 +23,7 @@ For more than thirty years, Cindy has written as a columnist and blogger, sharin
 
 While working with guides and mentors, Cindy drew out the universality of the meaning and themes in her story — a story of impossible tragedy and improbable joy in an ordinary family.
 
-Cindy has also worked for many years in the management group of Lion's Roar, the world's leading English-language Buddhist magazine. She was a member of the Halifax Regional School Board from 2012 until its summary elimination in 2018.
+Cindy has also worked for many years in the management group of Lion's Roar, the world's leading English-language Buddhist magazine. She was a member of the Halifax Regional School Board from 2012 until it was summarily disbanded by the government of the day in 2018.
 
 ## About _Short-Lived_
 
