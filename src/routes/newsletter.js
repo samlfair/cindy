@@ -4,11 +4,7 @@ export async function post({ request }) {
   const data = await request.formData()
   const email = data.get('email')
 
-  console.log(email)
-
   const ifttt = import.meta.env.VITE_IFTTT
-
-  console.log(ifttt)
 
   const response = await fetch(ifttt, {
     method: 'POST',
@@ -18,11 +14,7 @@ export async function post({ request }) {
     }),
   })
 
-  console.log(response)
-
   const { status } = response
-
-  console.log(status)
 
   return {
     status: 200,
