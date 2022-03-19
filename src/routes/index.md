@@ -9,6 +9,7 @@ favicon: 📖
   import portrait from '$lib/assets/portrait.jpg'
   import ImageCaption from '$lib/components/imageCaption.svelte'
   import DadSharon from '$lib/assets/dad-sharon.jpg'
+  let pattern = "[^@ \t\r\n]+@[^@ \t\r\n]+\.[^@ \t\r\n]+"
 </script>
 
 <ImageCaption image={portrait} alt="Portrait of Cindy Littlefair">
@@ -54,3 +55,49 @@ Cindy feels her way forward, up and out, uncertainty notwithstanding. She’s a 
 ## Contact
 
 Find Cindy on Twitter, [@cindylittlefair](https://twitter.com/cindylittlefair), or via email, cindymlittlefair at gmail.
+
+For updates, subscribe to Cindy's newsletter:
+
+<form
+  action="./newsletter"
+  method="post"
+>
+  <label>Email</label>
+  <input 
+    type="text"
+    name="email"
+    {pattern} 
+    placeholder="you@example.com"
+  />
+  <input type="submit" />
+</form>
+
+<style>
+  form {
+    padding: 3rem;
+    background: var(--accent-bg);
+    color: var(--text-light);
+    border: 1px solid var(--border);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+
+  form label {
+    font-weight: 500;
+  }
+
+  input[type="submit"] {
+    padding: 0.7rem 2rem;
+  }
+
+  input[type="text"] {
+    flex-grow: 1;
+    max-width: 300px;
+    min-width: 200px;
+  }
+</style>

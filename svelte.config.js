@@ -8,9 +8,6 @@ import preprocess from 'svelte-preprocess'
 const config = {
   kit: {
     adapter: adapterStatic(),
-
-    // hydrate the <div id="svelte"> element in src/app.html
-    target: '#svelte',
   },
   extensions: ['.svelte', '.svx', '.md'],
   preprocess: [
