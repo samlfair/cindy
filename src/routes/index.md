@@ -66,7 +66,7 @@ For updates, subscribe to Cindy's newsletter:
   <input 
     type="text"
     name="email"
-    {pattern} 
+    pattern="[^@ \t\r\n]+@[^@ \t\r\n]+\.[^@ \t\r\n]+"
     placeholder="you@example.com"
   />
   <input type="submit" />
@@ -93,6 +93,7 @@ For updates, subscribe to Cindy's newsletter:
 
   input[type="submit"] {
     padding: 0.7rem 2rem;
+    /* animation: pulse 1s infinite; */
   }
 
   input[type="text"] {
