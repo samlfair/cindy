@@ -14,21 +14,21 @@ favicon: 📖
 
 <ImageCaption image={portrait} alt="Portrait of Cindy Littlefair">
 
-Cindy Littlefair is a Canadian writer. She is currently working on her first book, _Short-Lived_, the story of her family of origin.
+Cindy Littlefair is a Canadian writer. She is currently working on her first book, _Deadfall: The Littlefair Family Tree_, the story of her family of origin.
 
 </ImageCaption>
 
 ---
 
-For more than thirty years, Cindy has written as a columnist and blogger, sharing insights on life, community, and family. In 2020, she entered the Master of Fine Arts in Creative Nonfiction at the University of King's College to develop her first book, _Short-Lived_. She was emboldened on her journey by mentors who told her that her project was "powerful" and "well-crafted" and that it "exceeded already-high expectations."
+For more than thirty years, Cindy has written as a columnist and blogger, sharing insights on life, community, and family. In 2020, she entered the Master of Fine Arts in Creative Nonfiction at the University of King's College to develop her first book, _Deadfall_. She was emboldened on her journey by mentors who told her that her project was "powerful" and "well-crafted" and that it "exceeded already-high expectations."
 
 While working with guides and mentors, Cindy drew out the universality of the meaning and themes in her story — a story of impossible tragedy and improbable joy in an ordinary family.
 
 Cindy has also worked for many years in the management group of Lion's Roar, the world's leading English-language Buddhist magazine. She was a member of the Halifax Regional School Board from 2012 until it was summarily disbanded by the government of the day in 2018.
 
-## About _Short-Lived_
+## About _Deadfall_
 
-_From Cindy Littlefair, a new voice in the tradition of meaning-finding through words, curiosity, and her own life of death, comes <em>Short-Lived</em>._
+_From Cindy Littlefair, a new voice in the tradition of meaning-finding through words, curiosity, and her own life of death, comes <em>Deadfall</em>._
 
 ---
 
@@ -54,7 +54,7 @@ Cindy feels her way forward, up and out, uncertainty notwithstanding. She’s a 
 
 ## Contact
 
-Find Cindy on Twitter, [@cindylittlefair](https://twitter.com/cindylittlefair), or via email, cindymlittlefair at gmail.
+Find Cindy on Twitter, [@cindylittlefair](https://twitter.com/cindylittlefair), or via email, cindymlittlefair at gmail dot com.
 
 For updates, subscribe to Cindy's newsletter:
 
