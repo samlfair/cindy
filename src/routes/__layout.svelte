@@ -40,7 +40,6 @@
 
   hr {
     border: none;
-    padding: 1rem;
   }
 
   hr + p:first-letter {
