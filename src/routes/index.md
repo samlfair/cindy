@@ -52,6 +52,11 @@ Her parents are no help. They’re at sea with their own emotions. They lavish h
 
 Cindy feels her way forward, up and out, uncertainty notwithstanding. She’s a true “Wednesday’s child,” a mess of inherited woe, a “sobersides,” her mother’s word, but she knows there’s no way around it. She has to go through it. She has to indulge her curiosity and find the silk purse that is the Littlefair sow’s ear.
 
+## Articles
+
+- [Jeepers, There's a Little Creature! - New York Times](https://www.nytimes.com/2022/03/22/style/tiny-modern-love-stories-the-empty-city-was-our-playground.html)
+- [When Did the War Begin? - Lion's Roar](https://www.lionsroar.com/the-dharma-of-fiction/)
+
 ## Contact
 
 Find Cindy on Twitter, [@cindylittlefair](https://twitter.com/cindylittlefair), or via email, cindymlittlefair at gmail dot com.
