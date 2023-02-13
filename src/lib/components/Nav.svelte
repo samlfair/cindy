@@ -31,26 +31,27 @@
     display: flex;
     justify-content: space-between;
     align-items: baseline;
+    gap: 1rem;
   }
 
   .substack {
     text-decoration: none;
     font-size: 1.1em;
+    white-space: pre;
   }
 
   form {
-    border-radius: 5px;
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
     align-items: baseline;
     gap: 1rem;
-    flex-wrap: wrap;
   }
 
   input[type="text"] {
-    flex-grow: 1;
-    max-width: 300px;
-    min-width: 200px;
+    flex-shrink: 1;
+    min-width: 0px;
+    /* max-width: 20vw; */
+    /* min-width: 200px; */
   }
 </style>
