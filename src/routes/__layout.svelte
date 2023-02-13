@@ -1,31 +1,31 @@
 <script>
-  import { useFrontmatter } from '$lib/stores';
-  import { Seo } from '$lib/components'
-
-  let frontmatter;
-
-  // Frontmatter store is set is frontmatter component, which is an mdsvex layout
-  useFrontmatter.subscribe(value => {
-    frontmatter = value;
-  });
+  import { Seo, Nav } from '$lib/components'
 </script>
 
-<Seo title={frontmatter.title} subtitle={frontmatter.subtitle} description={frontmatter.description} favicon={frontmatter.favicon} />
-
-<main data-theme="light">
-<nav>
-  <h1>{frontmatter.title || "Cindy Littlefair"}</h1>
-  {#if frontmatter.subtitle}<h2>{frontmatter.subtitle}</h2>{/if}
-</nav>
+<Nav />
+<main class="bound">
   <slot></slot>
-  <hr/>
-  <div class="copywrite">&#169; Cindy Littlefair, {(new Date).getFullYear()}</div>
-  <hr/>
 </main>
+<hr/>
+<div class="copywrite">&#169; Cindy Littlefair, {(new Date).getFullYear()}</div>
+<hr/>
 
 <style global>
+  body {
+    display: block;
+  }
+
   p {
     font-family: Iowan Old Style, Apple Garamond, Baskerville, Times New Roman, Droid Serif, Times, Source Serif Pro, serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  }
+
+  .bound {
+    display: grid;
+    grid-template-columns: 1fr min(45rem,90%) 1fr;
+  }
+
+  .bound > * {
+    grid-column: 2;
   }
 
   nav {

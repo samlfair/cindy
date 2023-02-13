@@ -12,7 +12,7 @@ favicon: 📖
   let pattern = "[^@ \t\r\n]+@[^@ \t\r\n]+\.[^@ \t\r\n]+"
 </script>
 
-<ImageCaption image={portrait} alt="Portrait of Cindy Littlefair">
+<ImageCaption image={"https://cdn.raster.app/sam/graphics/Cs09M80oVr?ixlib=js-3.7.0&width=400&height=400&compress=false&fit=crop&rect=0%2C345%2C2000%2C2000&ar=1&s=833a8300695584cbe567608d23115946"} alt="Portrait of Cindy Littlefair">
 
 Cindy Littlefair is a Canadian writer. She is currently working on her first book, _Deadfall: The Littlefair Family Tree_, the story of her family of origin.
 
@@ -38,7 +38,7 @@ In retrospect, Cindy knew by age five that something was up. Her family was diff
 
 ---
 
-<ImageCaption image={DadSharon} alt="Portrait of Cindy Littlefair" reverse square>
+<ImageCaption image={"https://cdn.raster.app/sam/graphics/R2XbuEGlv0?ixlib=js-3.7.0&s=56bcc3456700301ff77ca0283b5d77a6"} alt="Portrait of Cindy Littlefair" reverse square>
 
 "The family is as rich in warmth and humour as it is tragedy and denial, but the ignoring is knee-deep. The bodies have piled up around them."
 
@@ -61,20 +61,21 @@ Cindy feels her way forward, up and out, uncertainty notwithstanding. She’s a 
 
 Find Cindy on Twitter, [@cindylittlefair](https://twitter.com/cindylittlefair), or via email, cindymlittlefair at gmail dot com.
 
-For updates, subscribe to Cindy's newsletter:
-
 <form
   action="./newsletter"
   method="post"
 >
-  <label>Email</label>
-  <input 
-    type="text"
-    name="email"
-    pattern="[^@ \t\r\n]+@[^@ \t\r\n]+\.[^@ \t\r\n]+"
-    placeholder="you@example.com"
-  />
-  <input type="submit" />
+  <p>Subscribe to Cindy's <a href="https://cindylittlefair.substack.com/" target="_blank">Substack newsletter</a></p>
+  <fieldset>
+    <label>Email</label> 
+    <input 
+      type="text"
+      name="email"
+      pattern="[^@ \t\r\n]+@[^@ \t\r\n]+\.[^@ \t\r\n]+"
+      placeholder="you@example.com"
+    /> 
+    <input type="submit" />
+  </fieldset>
 </form>
 
 <style>
@@ -84,12 +85,23 @@ For updates, subscribe to Cindy's newsletter:
     color: var(--text-light);
     border: 1px solid var(--border);
     border-radius: 5px;
+    text-align: center;
+  }
+
+  form p {
+    font-family: var(--sans-font);
+    font-size: 1.2em;
+    margin: 0.1rem 0 1rem;
+  }
+
+  fieldset {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: baseline;
     gap: 1rem;
     flex-wrap: wrap;
+    border: none;
   }
 
   form label {
