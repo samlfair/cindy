@@ -6,9 +6,7 @@ favicon: 📖
 ---
 
 <script>
-  import portrait from '$lib/assets/portrait.jpg'
   import ImageCaption from '$lib/components/imageCaption.svelte'
-  import DadSharon from '$lib/assets/dad-sharon.jpg'
   let pattern = "[^@ \t\r\n]+@[^@ \t\r\n]+\.[^@ \t\r\n]+"
 </script>
 
