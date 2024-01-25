@@ -10,7 +10,7 @@ favicon: 📖
   let pattern = "[^@ \t\r\n]+@[^@ \t\r\n]+\.[^@ \t\r\n]+"
 </script>
 
-<ImageCaption image={"https://cdn.raster.app/sam/graphics/Cs09M80oVr?ixlib=js-3.7.0&width=400&height=400&compress=false&fit=crop&rect=0%2C345%2C2000%2C2000&ar=1&s=833a8300695584cbe567608d23115946"} alt="Portrait of Cindy Littlefair">
+<ImageCaption image={"https://rstr.in/sam/photos/d5EN-nezLN7/SiqgCfPa_40"} alt="Portrait of Cindy Littlefair">
 
 Cindy Littlefair is a Canadian writer. She is currently working on her first book, _Deadfall: The Littlefair Family Tree_, the story of her family of origin.
 
