@@ -39,8 +39,10 @@
   img {
     max-width: calc(30% + 45px);
     border-radius: 50%;
+    aspect-ratio: 1;
     float: right;
     align-self: flex-start;
+    opacity: 1;
     /* margin-right: 5vw; */
   }
 
